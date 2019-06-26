@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth; }
+  html ::selection {
+    color: white;
+    background: #13b3c1; }
+  html ::-webkit-scrollbar-track {
+    background: white; }
+  html ::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 8px; }
+  html ::-webkit-scrollbar-thumb {
+    background: #13b3c1;
+    border-radius: 8px; }
+    html ::-webkit-scrollbar-thumb:hover {
+      background: #0d7f8a; }
+
+body p {
+  font-size: 1.2rem; }
+
+.ikonice {
+  font-size: 2.5rem; }
+
+.bg-zelenoplava {
+  background-color: #13b3c1; }
+
+.nav-link {
+  position: relative;
+  margin-left: 10px; }
+  .nav-link:after {
+    content: '';
+    border-bottom: 4px solid #00dada;
+    left: 50%;
+    position: absolute;
+    top: 110%;
+    transition: all .2s ease-in-out;
+    width: 0; }
+  .nav-link:hover:after {
+    left: 0;
+    width: 100%; }
+
+.navbar-toggler {
+  border: 0px; }
+
+.jumbojedan {
+  min-height: 600px;
+  position: relative;
+  background-image: url(/img/blue-4145659_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .jumbojedan .sarad {
+    left: 0px; }
+
+#menjaj {
+  position: relative;
+  min-height: 500px;
+  background-image: url(/img/okean.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.sara {
+  position: absolute;
+  top: 0px;
+  margin-bottom: 50px; }
+
+.sarad {
+  position: absolute;
+  bottom: 0px; }
+
+#footer {
+  position: relative; }
+
+.lista {
+  background-color: transparent;
+  border: none; }
+
+/*# sourceMappingURL=style.css.map */
